@@ -1,4 +1,4 @@
-OBJECTIVE OF MY PROJECT--    This Project is Based on a Machine Learning Model that can learn From The Measurements of the Flower Irises Whose species are Already known , so                                  that we Can predict the species  the new irises that we will find.
+OBJECTIVE OF MY PROJECT--    This Project is Based on a Machine Learning Model that can learn From The Measurements of the Flower Irises Whose species are Already known , so that we Can predict the species  the new irises that we will find.
 
 
 ABOUT MY PROJECT--                 We have developed the model that is going to classify the iris flowers for us.
@@ -12,21 +12,21 @@ ABOUT MY PROJECT--                 We have developed the model that is going to 
                                                          (4) Make predictions
 
                                                          Iris Flower:
-                                                                           Iris is the family in the flower which contains the several species such as                                                                                                      the iris.setosa,iris.versicolor,iris.virginica,etc. but we are here using only                                                                                                    three species versicolor, setosa, verginica.
+                                                                           Iris is the family in the flower which contains the several species such as the iris.setosa,iris.versicolor,iris.virginica,etc. but we are here using only three species versicolor, setosa, verginica.
 
                                                          1.Create the datasets:--
-                                                                                       Inorder to classify the different species of the Iris,We have                                                                                                                    prepared the datasets with features and labels.But sklearn comes                                                                                                                  with the inbuilt datasets for the iris classification problem.
+                                                                                       Inorder to classify the different species of the Iris,We have prepared the datasets with features and labels.But sklearn comes with the inbuilt datasets for the iris classification problem.
                                                                                        Let us first understand the datasets
                                                                                        The data set consists of:
                                                                                        150 samples
                                                                                        labels: species of Iris (Iris setosa, Iris virginica and Irisversicolor)
-                                                                                       features: Sepal length,Sepal width,Petal length,Petal Width                                                                                                                      incm.
-                                                                                       Scikit learn only works if data is stored as numeric data,                                                                                                                        irrespective of it being a regression or a classification problem. It                                                                                                            also requires the arrays to be stored at numpy arrays for                                                                                                                        optimization. Since, this dataset is loaded from scikit learn,                                                                                                                    everything is appropriately formatted.
+                                                                                       features: Sepal length,Sepal width,Petal length,Petal Width incm.
+                                                                                       Scikit learn only works if data is stored as numeric data, irrespective of it being a regression or a classification problem. It also requires the arrays to be stored at numpy arrays for optimization. Since, this dataset is loaded from scikit learn, everything is appropriately formatted.
 
 
 
                                                        2.Splitting the dataset--
-                                                                                      Since our process involve training and testing ,We should split                                                                                                                  our dataset.It can be executed by the following code,
+                                                                                      Since our process involve training and testing ,We should split our dataset.It can be executed by the following code,
 
                                                                                        x_train contains the training features
                                                                                        x_test contains the testing features
@@ -36,7 +36,7 @@ ABOUT MY PROJECT--                 We have developed the model that is going to 
 
 
                                                      3.Build the model--
-                                                                                   We can use any classification algorithm to solve the                                                                                                                              problem with decision tree algorithm, knn model, naive bayes                                                                                                                      algorithm , logistic regression.
+                                                                                   We can use any classification algorithm to solve the problem with decision tree algorithm, knn model, naive bayes algorithm , logistic regression.
 
                                                      4.Train the Model--
                                                                                     We can train the model with fit function.
@@ -44,10 +44,10 @@ ABOUT MY PROJECT--                 We have developed the model that is going to 
                                                       5.Make predictions:
                                                                                     Predictions can be done with predict function
                                                                                     #predictions=classifier.predict(x_test)
-                                                                                    these predictions can be matched with the expected output to                                                                                                                     measure the accuracy value.
+                                                                                    these predictions can be matched with the expected output to measure the accuracy value.
 
                                                     6.Comparing Models--
-                                                                                    On the basis of results we have predicted which model is Perfect                                                                                                                 for it.
+                                                                                    On the basis of results we have predicted which model is Perfect for it.
                                                                                          
 DIFFERENTS LIBRARIES USED IN THIS MODEL--
                                             (1) Sklearn libraries
@@ -56,18 +56,18 @@ DIFFERENTS LIBRARIES USED IN THIS MODEL--
 MODELS AND TERMS USED IN THIS PROJECT
 
 
-# KNN Model -                   K-Nearest Neighbors (KNN) is one of the simplest algorithms used in Machine Learning for regression and classification problem. KNN algorithms                                   use data and classify new data points based on similarity measures (e.g. distance function). Classification is done by a majority vote to its                                     neighbors. The data is assigned to the class which has the nearest neighbors. As you increase the number of nearest neighbors, the value of k,                                   accuracy might increase.
+# KNN Model -                   K-Nearest Neighbors (KNN) is one of the simplest algorithms used in Machine Learning for regression and classification problem. KNN algorithms use data and classify new data points based on similarity measures (e.g. distance function). Classification is done by a majority vote to its neighbors. The data is assigned to the class which has the nearest neighbors. As you increase the number of nearest neighbors, the value of k, accuracy might increase.
 
 
-# Logistic Regression -       Logistic regression models the probabilities for classification problems with two possible outcomes.It's an extension of the linear regression                                   model for classification problems.the linear regression model can work well for regression, but fails for classification.  In case of two classes,                               you could label one of the classes with 0 and the other with 1 and use linear regression.Technically it works and most linear model programs will                                 spit out weights for us.
+# Logistic Regression -       Logistic regression models the probabilities for classification problems with two possible outcomes.It's an extension of the linear regression model for classification problems.the linear regression model can work well for regression, but fails for classification.  In case of two classes, you could label one of the classes with 0 and the other with 1 and use linear regression.Technically it works and most linear model programs will spit out weights for us.
 
 
 
-# Naive Bayes Algorithm - Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a  single algorithm but a family of algorithms                           where all of them share a common principle i.e. every pair of features being classified is independent of each other. The dataset is divided into two parts,                                 namely, feature matrix and the response vector.
+# Naive Bayes Algorithm - Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a  single algorithm but a family of algorithms where all of them share a common principle i.e. every pair of features being classified is independent of each other. The dataset is divided into two parts,namely, feature matrix and the response vector.
 
-                          Feature matrix contains all the vectors(rows) of dataset in which each vector consists of the value of dependent features.Response vector contains the                           value of class variable(prediction or output) for each row of feature matrix. 
+                          Feature matrix contains all the vectors(rows) of dataset in which each vector consists of the value of dependent features.Response vector contains the value of class variable(prediction or output) for each row of feature matrix. 
 
-# Decesion Tree Classifier - Decision tree algorithm falls under the category of supervised learning. They can be used to solve both regression and classification problems.                                  Decision tree uses the tree representation to solve the problem in which each leaf node corresponds to a class label and attributes are represented                              on the internal node of the tree. We can represent any boolean function on discrete attributes using the decision tree.
+# Decesion Tree Classifier - Decision tree algorithm falls under the category of supervised learning. They can be used to solve both regression and classification problems. Decision tree uses the tree representation to solve the problem in which each leaf node corresponds to a class label and attributes are represented on the internal node of the tree. We can represent any boolean function on discrete attributes using the decision tree.
                                            Folowing Assumptions  are Taken--
                                            (1) At the beginning, we consider the whole training set as the root.
                                            (2) Feature values are preferred to be categorical. If the values are continuous then they are                                                                                        discretized prior to building the model.
